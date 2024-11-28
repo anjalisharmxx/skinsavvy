@@ -1,0 +1,167 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #fff;
+    padding: 10px 20px;
+    border-bottom: 1px solid #ddd;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo img {
+    width: 150px;
+}
+
+header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+main {
+    padding: 20px;
+}
+
+.product-details {
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.product-image {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.product-image img {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.key-benefits {
+    margin-top: 20px;
+    text-align: left;
+}
+
+.key-benefits h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.key-benefits ul {
+    list-style: disc;
+    margin-left: 20px;
+    line-height: 2rem;
+}
+
+.product-info {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+}
+
+.product-info h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.product-info p {
+    font-size: 1em;
+    margin-bottom: 10px;
+}
+
+.price {
+    font-size: 1.5em;
+    color: #e74c3c;
+}
+
+.price .original-price {
+    text-decoration: line-through;
+    color: #777;
+    margin-right: 10px;
+}
+
+.stock-status {
+    font-weight: bold;
+    color: green;
+}
+
+.add-to-cart {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    margin-top: 20px;
+    align-self: flex-start;
+}
+
+.add-to-cart:hover {
+    background-color: #555;
+}
+
+.product-description {
+    margin-top: 20px;
+}
+
+.product-description h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.product-description ol {
+    margin-left: 20px;
+    line-height: 2rem;
+}
+
+footer {
+    background-color: #FFC0CB; /* Pink background color */
+    padding: 20px;
+    text-align: center;
+    border-top: 1px solid #ddd;
+}
+
+footer p {
+    margin: 0;
+    color: #333;
+}
+.idealfor h1{
+    margin-left: 1rem;
+}
+.idealfor ul{
+    line-height: 2rem;
+}
+.uses ol{
+    line-height: 2rem;
+}
+.dieases{
+    margin-left: 100px;
+    line-height: 1.8rem;
+}
+
+.avoid{
+    margin-left: 100px;
+    line-height: 1.8rem;
+}
+
+
